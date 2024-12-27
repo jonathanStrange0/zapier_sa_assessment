@@ -21,7 +21,7 @@ FROM orders
 WHERE order_date >= NOW() - INTERVAL '7 days';
 ```
 By default, Zapier polls for new information on a 15-minute interval. If you're only looking to have this data sent to Slack once a week, you can schedule that message in the Slack configuration in the `Schedule At` input box.
-![[schedule_at.png]]
+![schedule_at](https://github.com/jonathanStrange0/zapier_sa_assessment/blob/main/schedule_at.png)
 
 When this Zap runs, you will see output to your selected slack recipients (channels or individual users), and it will look something like this:
 ![[Pasted image 20241227111802.png]]
