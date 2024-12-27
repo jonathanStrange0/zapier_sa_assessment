@@ -21,10 +21,13 @@ FROM orders
 WHERE order_date >= NOW() - INTERVAL '7 days';
 ```
 By default, Zapier polls for new information on a 15-minute interval. If you're only looking to have this data sent to Slack once a week, you can schedule that message in the Slack configuration in the `Schedule At` input box.
+
 ![schedule_at](https://github.com/jonathanStrange0/zapier_sa_assessment/blob/main/schedule_at.png)
 
 When this Zap runs, you will see output to your selected slack recipients (channels or individual users), and it will look something like this:
+
 ![report](https://github.com/jonathanStrange0/zapier_sa_assessment/blob/main/zap_report.png)
+
 Of course, you can customize the data in the Slack report according to your needs and the content of the data returned in your custom query. 
 
 Thank you so much for reaching out to us! If you have any further questions, we would love to help. Please feel free to send over any other further questions you may have. 
@@ -38,8 +41,9 @@ Jonathan Mucha.
 Unless Zapier can come with the ability to run code steps on my own infrastructure, it looks like we may have to take our business elsewhere. What can you do to make this happen?
 ```
 
-## Author's notes:
+## Author's Notes (not part of the email):
 Clearly, this customer is not the friendliest or happiest. The order in which I make the following suggestions would depend on the previous context with this particular customer. For instance, if we had already had conversations about their security requirements and ruled out the Code by Zapier route, I wouldn't suggest it here. I may also ask some questions to clarify the situation's requirements if there is no interaction history with them.
+
 ## Answer:
 Hello! Thank you for reaching out. Running custom code on your infra is essential to your desired workflows. While Zapier cannot currently run completely on-prem for our clients, there are several ways you can run custom code in your Zaps. Here are a few suggestions in order of level of complexity and effort:
 
@@ -77,3 +81,27 @@ I hope you have a great week! I look forward to speaking with you soon.
 Thank you so much for reaching out,
 
 Jonathan Mucha.
+
+## Q3 - Team vs Enterprise
+
+```
+We have a handful of people within our company who want to create automations for their teams. Which plan is the better choice for me to present to management - Team or Enterprise?
+```
+## Author's Notes:
+Again, context matters a lot here. If we know anything about the customer/prospect, my approach changes based on that. If this were a fresh contact from an unknown user, my approach would be as follows:
+
+## Answer
+Thank you for reaching out! This is a great question, and it can be challenging to recommend a plan without more insight into your specific needs. Generally, the decision between our Team and Enterprise plans hinges on factors such as how many teams will be using Zapier, the level of security you require, and the depth of user-permission controls needed.
+
+Since you mentioned multiple teams are interested in automations, it might be beneficial to explore the Enterprise plan. Its advanced features—like enhanced admin permissions, greater observability, and a dedicated Technical Account Manager—often provide stronger oversight and support for organizations with diverse or growing needs.
+
+However, before making a final recommendation, I’d love to connect with you and other relevant stakeholders. I’ll bring one of our Enterprise Account Executives into the conversation so we can cover any questions about pricing, features, and how each plan aligns with your goals. By the end of that discussion, we’ll have a clearer idea of which plan best fits.
+
+Would you be available for a brief call next week? Please let me know a few times that might work for you and your team, and I’ll set it up.
+
+In the meantime, a breakdown of the features for each plan can be found [here](https://zapier.com/app/planbuilder/pricing). This will help you understand the differences between the plans in detail and prepare for our call.
+
+Thank you again for reaching out, and I look forward to speaking with you!
+
+Jonathan Mucha.
+    
