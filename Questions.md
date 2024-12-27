@@ -24,7 +24,7 @@ By default, Zapier polls for new information on a 15-minute interval. If you're 
 ![schedule_at](https://github.com/jonathanStrange0/zapier_sa_assessment/blob/main/schedule_at.png)
 
 When this Zap runs, you will see output to your selected slack recipients (channels or individual users), and it will look something like this:
-![[Pasted image 20241227111802.png]]
+![report](https://github.com/jonathanStrange0/zapier_sa_assessment/blob/main/zap_report.png)
 Of course, you can customize the data in the Slack report according to your needs and the content of the data returned in your custom query. 
 
 Thank you so much for reaching out to us! If you have any further questions, we would love to help. Please feel free to send over any other further questions you may have. 
