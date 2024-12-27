@@ -32,3 +32,48 @@ Thank you so much for reaching out to us! If you have any further questions, we 
 Thank you,
 
 Jonathan Mucha.
+
+## Question 2:  **Customization Request**
+```
+Unless Zapier can come with the ability to run code steps on my own infrastructure, it looks like we may have to take our business elsewhere. What can you do to make this happen?
+```
+
+## Author's notes:
+Clearly, this customer is not the friendliest or happiest. The order in which I make the following suggestions would depend on the previous context with this particular customer. For instance, if we had already had conversations about their security requirements and ruled out the Code by Zapier route, I wouldn't suggest it here. I may also ask some questions to clarify the situation's requirements if there is no interaction history with them.
+## Answer:
+Hello! Thank you for reaching out. Running custom code on your infra is essential to your desired workflows. While Zapier cannot currently run completely on-prem for our clients, there are several ways you can run custom code in your Zaps. Here are a few suggestions in order of level of complexity and effort:
+
+### 1. Use Code by Zapier
+Zapier does offer a workflow step that allows you to run custom code, complete with an AI assistant to speed up the process. This works well for simple tasks like custom data transformations, string manipulations, or API requests. 
+
+Code by Zapier is best suited for small scripts with limited dependencies and runtime requirements rather than large-scale custom app logic.
+
+You can find some more information on Code by Zapier [here](https://zapier.com/blog/code-by-zapier-guide/)
+
+---
+### 2. Serverless Functions in the Cloud
+If you have more complicated logic you would like to implement; you could use a serverless function like AWS Lambda that is accessible using the [webhook](https://help.zapier.com/hc/en-us/articles/8496083355661-How-to-get-started-with-Webhooks-by-Zapier) or [HTTP](https://help.zapier.com/hc/en-us/articles/12899607716493-Set-up-an-API-Request-action#h_01JD2EG7QP773YVQ8D371878BJ) Zap actions to send a request to your function for data processing. 
+
+Serverless functions are a good option if you anticipate a high volume of requests through this Zap as they scale well. However, it is important to remember that you will have to manage this environment yourself outside of Zapier and that you'll be responsible for managing the security around these functions as well. 
+
+---
+### 3. Build a Webhook Interface for Your Existing Code
+If you already have code you would like to access, another way to connect your Zap to this code would be to build a webhook interface in front of the code in question and allow the Zap access through the webhook or HTTP actions mentioned above. 
+
+This approach gives you the ultimate flexibility to run your code on your servers. It is possible to set up a robust workflow here, even if processing the data sent by Zapier takes a while. The output of your function(s), if there is any, can be pushed back to Zapier with an incoming webhook trigger if you need it. More information on triggering Zaps from a webhook can be found [here](https://help.zapier.com/hc/en-us/articles/8496288690317-Trigger-Zaps-from-webhooks). 
+
+---
+### 4. Build a Custom Zapier App Integration
+The [Zapier developer platform](https://docs.zapier.com/platform/home) allows businesses to build custom integrations into Zapier to allow access to their apps. These app integrations can be public or private, and you can define the authentication, triggers, searches, and actions a Zap may use to interact with your app. 
+
+This approach allows you to tailor the app integration as needed and build multi-step logic where necessary inside your Zap. Of course, you will also need to become familiar with the developer platform if you are not already, and it may be overkill for what you are trying to accomplish.
+
+--- 
+
+Given the number of ways to achieve your goal and the potentially tricky integration here, I would love to get on a call to discuss your options and intended outcomes. Could you provide some availability where you'd be free to discuss your challenges here? 
+
+I hope you have a great week! I look forward to speaking with you soon.
+
+Thank you so much for reaching out,
+
+Jonathan Mucha.
