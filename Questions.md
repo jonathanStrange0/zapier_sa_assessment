@@ -32,7 +32,7 @@ When this Zap runs, you will see output to your selected slack recipients (chann
 
 Of course, you can customize the data in the Slack report according to your needs and the content of the data returned in your custom query. More details on how to customize the look of slack messages can be found [here](https://help.zapier.com/hc/en-us/articles/8496025607181-Tips-for-formatting-Slack-messages#text-0-0).
 
-Thank you so much for reaching out to us! If you have any further questions, we would love to help. Please feel free to send over any other further questions you may have. 
+This should get you started automating a report from your Postgres database and delivering that report via Slack. Thank you so much for reaching out to us! If you have any further questions, we would love to help. Please feel free to reply to this email with any other questions you may have. 
 
 Thank you,
 
@@ -44,13 +44,13 @@ Unless Zapier can come with the ability to run code steps on my own infrastructu
 ```
 
 ## Author's Notes (not part of the email):
-Clearly, this customer is not the friendliest or happiest. The order in which I make the following suggestions would depend on the previous context with this particular customer. For instance, if we had already had conversations about their security requirements and ruled out the Code by Zapier route, I wouldn't suggest it here. I may also ask some questions to clarify the situation's requirements if there is no interaction history with them.
+This customer is not the friendliest or happiest. The order in which I make the following suggestions would depend on the previous context with this particular customer. For instance, if we had already had conversations about their security requirements and ruled out the Code by Zapier route, I wouldn't suggest it here. I may also ask some questions to clarify the situation's requirements if there is no history of interaction with them.
 
 ## Answer:
-Hello! Thank you for reaching out. Running custom code on your infra is essential to your desired workflows. While Zapier cannot currently run completely on-prem for our clients, there are several ways you can run custom code in your Zaps. Here are a few suggestions in order of level of complexity and effort:
+Hello! Thank you for reaching out. Running custom code on your infra is essential to your desired workflows. While Zapier cannot currently run completely on-prem for our clients, you can run custom code in several ways in your Zaps. Here are a few suggestions in order of level of complexity and effort:
 
 ### 1. Use Code by Zapier
-Zapier does offer a workflow step that allows you to run custom code, complete with an AI assistant to speed up the process. This works well for simple tasks like custom data transformations, string manipulations, or API requests. 
+Zapier does offer a workflow step that allows you to run custom code, complete with an AI assistant, to speed up the process. This works well for custom data transformations, string manipulations, or API requests. 
 
 Code by Zapier is best suited for small scripts with limited dependencies and runtime requirements rather than large-scale custom app logic.
 
@@ -58,9 +58,9 @@ You can find some more information on Code by Zapier [here](https://zapier.com/b
 
 ---
 ### 2. Serverless Functions in the Cloud
-If you have more complicated logic you would like to implement; you could use a serverless function like AWS Lambda that is accessible using the [webhook](https://help.zapier.com/hc/en-us/articles/8496083355661-How-to-get-started-with-Webhooks-by-Zapier) or [HTTP](https://help.zapier.com/hc/en-us/articles/12899607716493-Set-up-an-API-Request-action#h_01JD2EG7QP773YVQ8D371878BJ) Zap actions to send a request to your function for data processing. 
+If you have more complicated logic you would like to implement, you could use a serverless function like AWS Lambda that is accessible using the [webhook](https://help.zapier.com/hc/en-us/articles/8496083355661-How-to-get-started-with-Webhooks-by-Zapier) or [HTTP](https://help.zapier.com/hc/en-us/articles/12899607716493-Set-up-an-API-Request-action#h_01JD2EG7QP773YVQ8D371878BJ) Zap actions to send a request to your function for data processing. 
 
-Serverless functions are a good option if you anticipate a high volume of requests through this Zap as they scale well. However, it is important to remember that you will have to manage this environment yourself outside of Zapier and that you'll be responsible for managing the security around these functions as well. 
+Serverless functions are a good option if you anticipate high request volumes through this Zap as they scale well. However, it is essential to remember that you will have to manage this environment outside of Zapier and be responsible for managing the security around these functions as well. 
 
 ---
 ### 3. Build a Webhook Interface for Your Existing Code
@@ -72,11 +72,11 @@ This approach gives you the ultimate flexibility to run your code on your server
 ### 4. Build a Custom Zapier App Integration
 The [Zapier developer platform](https://docs.zapier.com/platform/home) allows businesses to build custom integrations into Zapier to allow access to their apps. These app integrations can be public or private, and you can define the authentication, triggers, searches, and actions a Zap may use to interact with your app. 
 
-This approach allows you to tailor the app integration as needed and build multi-step logic where necessary inside your Zap. Of course, you will also need to become familiar with the developer platform if you are not already, and it may be overkill for what you are trying to accomplish.
+This approach allows you to tailor the app integration as needed and build multi-step logic inside your Zap where necessary. Of course, you will also need to become familiar with the developer platform if you are not already, and it may be overkill for what you are trying to accomplish.
 
 --- 
 
-Given the number of ways to achieve your goal and the potentially tricky integration here, I would love to get on a call to discuss your options and intended outcomes. Could you provide some availability where you'd be free to discuss your challenges here? 
+Given the number of ways to achieve your goal and the potentially tricky integration here, I would love to discuss your options and intended outcomes. Please let me know your availability to discuss your challenges, and I'll schedule a call.
 
 I hope you have a great week! I look forward to speaking with you soon.
 
@@ -101,7 +101,7 @@ However, before making a final recommendation, I’d love to connect with you an
 
 Would you be available for a brief call next week? Please let me know a few times that might work for you and your team, and I’ll set it up.
 
-In the meantime, a breakdown of the features for each plan can be found [here](https://zapier.com/app/planbuilder/pricing). This will help you understand the differences between the plans in detail and prepare for our call.
+In the meantime, a breakdown of the features for each plan can be found [here](https://zapier.com/app/planbuilder/pricing). This will help you understand the details of the differences between the plans and prepare for our call.
 
 Thank you again for reaching out, and I look forward to speaking with you!
 
