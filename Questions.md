@@ -12,7 +12,8 @@ You can find details on how to make the connection [here](https://help.zapier.co
 
 So that you know, you must upgrade your plan to allow access to Zapier's static IP addresses to connect to your DB. You can test this in a trial of the Zapier Pro Plan, however, so there's no need for a commitment upfront. If you see the error `AppVersions using SQL Zero require static-ip pool types` when you attempt to connect to your database, it is because the static IP address is required, and you'll need the pro plan.
 
-The query you use might be something like:
+If you have a table of orders for an e-commerce business, and you wanted a summary of the past week's orders, the query you use might be something like:
+
 ```SQL
 SELECT
     COUNT(*) AS total_orders,
@@ -20,7 +21,8 @@ SELECT
 FROM orders
 WHERE order_date >= NOW() - INTERVAL '7 days';
 ```
-By default, Zapier polls for new information on a 15-minute interval. If you're only looking to have this data sent to Slack once a week, you can schedule that message in the Slack configuration in the `Schedule At` input box.
+
+By default, Zapier polls for new information at a 15-minute interval. If you only want this data sent to Slack once a week, you can schedule that message in the Slack configuration in the `Schedule At` input box.
 
 ![schedule_at](https://github.com/jonathanStrange0/zapier_sa_assessment/blob/main/schedule_at.png)
 
