@@ -28,7 +28,7 @@ When this Zap runs, you will see output to your selected slack recipients (chann
 
 ![report](https://github.com/jonathanStrange0/zapier_sa_assessment/blob/main/zap_report.png)
 
-Of course, you can customize the data in the Slack report according to your needs and the content of the data returned in your custom query. 
+Of course, you can customize the data in the Slack report according to your needs and the content of the data returned in your custom query. More details on how to customize the look of slack messages can be found [here](https://help.zapier.com/hc/en-us/articles/8496025607181-Tips-for-formatting-Slack-messages#text-0-0).
 
 Thank you so much for reaching out to us! If you have any further questions, we would love to help. Please feel free to send over any other further questions you may have. 
 
