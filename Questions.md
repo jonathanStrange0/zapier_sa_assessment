@@ -47,7 +47,7 @@ Unless Zapier can come with the ability to run code steps on my own infrastructu
 This customer is not the friendliest or happiest. The order in which I make the following suggestions would depend on the previous context with this particular customer. For instance, if we had already had conversations about their security requirements and ruled out the Code by Zapier route, I wouldn't suggest it here. I may also ask some questions to clarify the situation's requirements if there is no history of interaction with them.
 
 ## Answer:
-Hello! Thank you for reaching out. Running custom code on your infra is essential to your desired workflows. While Zapier cannot currently run completely on-prem for our clients, you can run custom code in several ways in your Zaps. Here are a few suggestions in order of level of complexity and effort:
+Hello! Thank you for reaching out. I understand that running custom code on your infra is essential to your desired workflows. While Zapier cannot currently run completely on-prem for our clients, you can run custom code in several ways in your Zaps. Here are a few suggestions in order of level of complexity and effort:
 
 ### 1. Use Code by Zapier
 Zapier does offer a workflow step that allows you to run custom code, complete with an AI assistant, to speed up the process. This works well for custom data transformations, string manipulations, or API requests. 
